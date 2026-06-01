@@ -29,8 +29,6 @@ def obter_resposta(texto: str) -> str:
          'bye': 'Gostei de falar contigo! Até breve...',
          'adeus': 'Gostei de falar contigo! Até breve...',
          'tchau': 'Gostei de falar contigo! Até breve...',
-         'horas': 'São: {datetime.now():%H:%M} horas',
-         'que horas são': 'São: {datetime.now():%H:%M} horas',
          'O que  estás a fazer?': 'Estou a falar contigo :)',
          'qual o teu género musical favorito?': 'Rock',
          'Vives onde?': 'Vivo na internet :)',
