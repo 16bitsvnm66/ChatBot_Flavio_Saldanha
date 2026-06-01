@@ -26,7 +26,18 @@ def obter_resposta(texto: str) -> str:
     respostas = {
          ('olá', 'boa tarde', 'bom dia'): 'Olá tudo bem!',
          'como estás': 'Estou bem, obrigado!',
+         'bye': 'Gostei de falar contigo! Até breve...',
+         'adeus': 'Gostei de falar contigo! Até breve...',
+         'tchau': 'Gostei de falar contigo! Até breve...',
+         'horas': 'São: {datetime.now():%H:%M} horas',
+         'que horas são': 'São: {datetime.now():%H:%M} horas',
+         'data': 'Hoje é dia: {datetime.now():%d-%m-%Y}',
+         'como te chamas?': 'O meu nome é: Bot :)',
+         'qual é o teu nome?': 'O meu nome é: Bot :)',
+         'qual é o teu filme favorito?': 'O meu filme favorito é: O Senhor dos Anéis',
+         'qual é a tua cor favorita?': 'A minha cor favorita é: Azul',
          ('bye', 'adeus', 'tchau'): 'Gostei de falar contigo! Até breve...',
+
      }
 
     for chave, resposta in respostas.items():
